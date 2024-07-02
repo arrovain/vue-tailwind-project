@@ -5,7 +5,7 @@ import { Button } from "./components/ui/button";
 
 <template>
   <div>
-    <Button></Button>
+    <Button>asdasdasdas</Button>
   </div>
   
 </template>
