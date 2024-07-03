@@ -13,13 +13,16 @@
   "dependencies": {
     "@radix-icons/vue": "^1.0.0",
     "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "notivue": "^2.4.4",
     "pinia": "^2.1.7",
     "radix-vue": "^1.8.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.29",
+    "vue-global-loader": "^0.9.9",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
