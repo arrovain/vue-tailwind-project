@@ -1,3 +1,10 @@
+export interface APIResponse<T> {
+    message: string,
+    statusCode: number,
+    success: boolean,
+    data: T
+}
+
 export type User = {
     __v: number,
     _id: string,
