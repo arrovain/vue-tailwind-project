@@ -7,5 +7,9 @@ export const useAuthStore = defineStore('AuthStore', {
         user: getLocalStorageData<User | null>('currentUserContent', true)
     }),
 
-    actions: {},
+    actions: {
+        async RegisterUser(from: Record<string, any>) {
+            
+        }
+    },
 })
