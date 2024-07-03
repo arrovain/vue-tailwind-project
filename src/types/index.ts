@@ -24,3 +24,14 @@ export type Image = {
     _id: string
 
 }
+
+export type Category = {
+    __v: number,
+    _id: string,
+    updatedAt: string,
+    createdAt: string,
+    owner: string
+    name: string
+
+
+}
