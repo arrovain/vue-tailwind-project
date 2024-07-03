@@ -10,3 +10,10 @@ export type User = {
     updatedAt: string,
     username: string
 }
+
+export type Image = {
+    localPath: string,
+    url: string,
+    _id: string
+
+}
